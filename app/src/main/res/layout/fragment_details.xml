@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:layout_marginTop="20dp"
+        android:useDefaultMargins="true">
+
+        <TextView
+            android:id="@+id/dateLabelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/label_date" />
+
+        <TextView
+            android:id="@+id/dateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/weightLabelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/label_weight" />
+
+        <TextView
+            android:id="@+id/weightTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/heightLabelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/label_height" />
+
+        <TextView
+            android:id="@+id/heightTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/pressureLabelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/label_pressure" />
+
+        <TextView
+            android:id="@+id/pressureTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/pulseLabelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/label_pulse" />
+
+        <TextView
+            android:id="@+id/pulseTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/sugarLabelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/label_sugar" />
+
+        <TextView
+            android:id="@+id/sugarTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/cholesterolLabelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/label_cholesterol" />
+
+        <TextView
+            android:id="@+id/cholesterollTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/labelInfo"
+            android:layout_width="match_parent"
+            android:layout_columnSpan="2"
+            android:padding="20dp"
+            android:text="@string/text_Info"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dlc"
+            android:layout_columnSpan="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+        <TextView
+            android:id="@+id/check_Name"
+            android:layout_columnSpan="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_checkList"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/check_list"
+            android:layout_columnSpan="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="20dp"
+            android:text="@string/text_summary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_columnSpan="2"
+            android:textAlignment="center" />
+
+        <TextView
+            android:padding="10dp"
+            android:text="@string/text_BMI2" />
+
+        <TextView
+            android:hint="Answer"
+            android:id="@+id/answer"/>
+
+        <TextView
+            android:padding="10dp"
+            android:text="@string/text_pressureIndicators" />
+
+        <TextView
+            android:hint="Answer"
+            android:id="@+id/answer_pressure"/>
+
+        <TextView
+            android:padding="10dp"
+            android:text="@string/text_pulsIndicators" />
+
+        <TextView
+            android:hint="Answer"
+            android:id="@+id/answer_pulse"/>
+
+        <TextView
+            android:padding="10dp"
+            android:text="@string/text_sugarIndicators" />
+
+        <TextView
+            android:hint="Answer"
+            android:id="@+id/answer_sugar"/>
+
+        <TextView
+            android:padding="10dp"
+            android:text="@string/text_cholesterolndicators" />
+
+        <TextView
+            android:hint="Answer"
+            android:id="@+id/answer_cholesterol"/>
+
+        <TextView
+            android:layout_columnSpan="2"
+            android:layout_width="wrap_content"/>
+
+    </GridLayout>
+
+
+</ScrollView>

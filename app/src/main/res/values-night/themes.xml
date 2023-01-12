@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Test5" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#210B47</item>
+        <item name="colorPrimaryVariant">#801B1817</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">#371377</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >#801B1817</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+        <string name="menuitem_edit">Редактировать</string>
+        <string name="menuitem_delete">Удалить</string>
+
+        <string name="hint_date_required" tools:ignore="ExtraTranslation">Дата (обязательно)</string>
+        <string name="hint_place" tools:ignore="ExtraTranslation">Место наблюдения</string>
+        <string name="hint_header" tools:ignore="ExtraTranslation">Заголовок</string>
+        <string name="hint_subject" tools:ignore="ExtraTranslation">Тематика</string>
+        <string name="hint_description" tools:ignore="ExtraTranslation">Описание наблюдения</string>
+        <string name="hint_emotion" tools:ignore="ExtraTranslation">Эмоции</string>
+        <string name="hint_age" tools:ignore="ExtraTranslation">Возраст</string>
+
+        <string name="label_date">Дата:</string>
+        <string name="label_place" tools:ignore="ExtraTranslation">Место наблюдения:</string>
+        <string name="label_header" tools:ignore="ExtraTranslation">Заголовок:</string>
+        <string name="label_subject" tools:ignore="ExtraTranslation">Тематика:</string>
+        <string name="label_description" tools:ignore="ExtraTranslation">Описание наблюдения:</string>
+        <string name="label_emotion">Эмоции:</string>
+        <string name="label_age">Возраст:</string>
+
+        <string name="confirm_title">Вы уверены?</string>
+        <string name="confirm_message">Это навсегда удалит запись</string>
+
+        <string name="button_cancel">Отмена</string>
+        <string name="button_delete">Удалить</string>
+
+        <string name="entry_added">Запись успешно создана</string>
+        <string name="entry_not_added">Запись не создана из-за ошибки</string>
+        <string name="entry_updated">Запись обновлена</string>
+        <string name="entry_not_updated">Запись не обновлена из-за ошибки</string>
+
+        <string name="insert_failed">Вставка не выполнена:</string>
+        <string name="hint_date">Дата</string>
+        <string name="hint_weight2">Вес</string>
+        <string name="hint_height">Рост</string>
+        <string name="hint_pressure">Давление</string>
+        <string name="hint_pulse">Пульс</string>
+        <string name="hint_sugar">Сахар</string>
+        <string name="hint_cholesterol">Холестерин</string>
+    <string name="label_weight">Вес</string>
+        <string name="label_height">Рост</string>
+        <string name="label_pressure">Давление</string>
+        <string name="label_pulse">Пульс</string>
+        <string name="label_sugar">Сахар</string>
+        <string name="label_cholesterol">Холестерин</string>
+    <string name="text_summary">Сводка</string>
+        <string name="text_BMI2">ИМТ:</string>
+    <string name="text_pressureIndicators">Показатели давления:</string>
+    <string name="text_pulsIndicators">Показатели пульса:</string>
+    <string name="text_sugarIndicators">Показатели сахара:</string>
+    <string name="text_cholesterolndicators">Показатели холестерина:</string>
+    <string name="text_Info">Дополнительная информация</string>
+    <string name="text_checkList">Чек-Лист</string>
+
+</resources>
